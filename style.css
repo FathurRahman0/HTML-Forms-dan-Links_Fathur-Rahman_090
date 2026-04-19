@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* HEADER */
+.box{
+    width: 100%;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #085385, #1c5d85);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* CONTENT */
+section{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* BUTTON / LINK */
+.btn{
+    display: inline-block;
+    background-color: #045891;
+    color: white;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #1c5d85;
+    transform: scale(1.05);
+}
+
+/* FORM */
+form{
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, textarea, select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+fieldset{
+    border: 1px solid #2880b9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend{
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+form p{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* biar radio & checkbox ga kepanjangan */
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+
+/* jarak antar pilihan */
+p input[type="radio"],
+p input[type="checkbox"]{
+    margin-left: 10px;
+}
+
+section div{
+    margin: 15px;
+}
+
+img{
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
